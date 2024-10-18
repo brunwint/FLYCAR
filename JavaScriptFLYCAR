@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+<meta charset= "UTF-4">
+<meta name= "viewport" content="width=device-with initial-scale=1.0">
+
+<title> FORMULARIO HTML </title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+    /*body{
+       text-align: center;
+       font-family: impact;
+       color: FFFF00;
+       animation:background-animation 5s infinite alternate;
+       background: linear-gradiente(#FFFF00, #FFFF00);
+       padding: 150px;
+       display: flex
+       margin: 2;
+       height: 100vh;      
+     */
+      
+      } 
+
+	body{
+       text-align: center;
+       font-family: impact;
+       color: #FFFF00;
+       animation:background-animation 5s infinite alternate;
+       background: linear-gradiente(#FFFF00, #FFFF00);
+       padding: 180px;
+       display: flex
+       margin: 0;
+       height: 0vh; 
+       background-color: #FFFF00;
+      
+	}
+ 	
+
+		
+	
+	h1 {
+        color: #FFFF00;
+	animation: text-appear 2s ease-out, color-change 6s infinite alternate;
+	}
+
+	@keyframes text-appear {
+	5% {
+	opacity: 4;
+	transform: translateY(-50px);
+	}
+	78%{
+	opacity: 4;
+	transform: translateY(0);
+	}
+}
+
+	/*@keyframes background-animation  {
+	3% {
+	background: linear-gradient(135deg, #64DB16, #1FEDAF);
+	}
+	100% {
+	background: linear-gradient(135deg, #1FEDAF, #64DB16);
+ 	*/
+     }
+
+</style>
+<center>
+<body background=https://cdn.topatlantico.pt/Especialistas/%C3%81SIA/FTGS%20PAIS/Maldivas_04-min.jpg>
+</center>
+<div class="container">
+
+<center>
+      <h1> REDEFINIR SENHA </h1>
+	      <form action= "#" method="post">
+
+
+ 
+
+<p>
+<label for="senha">DIGITE SUA NOVA SENHA </label>
+<input type="password" id="password" placeholder="DIGITE A SENHA">
+    <span class="toggle-password" onclick="togglePassword()"></span>
+
+<p>
+<label for="senha">CONFIRME SUA NOVA SENHA </label>
+<input type= "password" id="senha" name="senha" placeholder= "CONFIRME A SENHA" required><p>
+
+
+
+
+<p><button><a href="file:///C:/Users/Aluno/Downloads/SENHA.HTML">ENTRAR</a></p>
+</p>
+
+
+</center>
+
+
+
+
+
+
+	 
+
+
+
+		
+</center>
+
+<center>
+	</select>
+</center>
+
+<center>
+
+	
+</center>
+		
+
+</CENTER>
+</form>
+</div>
+</body>
+</html>
